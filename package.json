@@ -1,0 +1,34 @@
+{
+  "name": "zrproject",
+  "version": "1.0.0",
+  "description": "angularproject",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viviarui/AngularProject.git"
+  },
+  "keywords": [
+    "angular",
+    "webpack",
+    "npm"
+  ],
+  "author": "zhaorui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viviarui/AngularProject/issues"
+  },
+  "homepage": "https://github.com/viviarui/AngularProject#readme",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-route": "^1.6.5",
+    "webpack": "^3.4.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.29.0",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
